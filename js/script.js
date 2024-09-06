@@ -1,1 +1,1 @@
-Ini JavaScript
+IniJavaScript
