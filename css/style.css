@@ -23,7 +23,7 @@
     background-color: #ffff;
 }
 
-.Luas-Segitiga-Header {
+.segitiga-Header {
     border: 1px solid;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -44,6 +44,15 @@
     height: 300px;
     width: 300px;
     background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtQj3damdUMrB7NGGoc1qp7hNlWdpC_GJxnkiaA9JpyXEbPzc24PEalidWP4du9LY7s1g51LweT-7lqlh83cXAf3fTHFTZrDkSlStPgey9bv8LvWrxvV1YnGNb3VRrOXcms6o6WVSmZv4/s1600/Rumus+Luas+Segitiga.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.keliling-segitiga-img{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://www.wikihow.com/images_en/thumb/3/38/Find-the-Perimeter-of-a-Triangle-Step-1-Version-2.jpg/v4-460px-Find-the-Perimeter-of-a-Triangle-Step-1-Version-2.jpg.webp);
     background-size: cover;
     background-position: center;
     align-self: center;
@@ -82,7 +91,7 @@ input[type=number] {
     flex: 1;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
     .main-content{
         flex-direction: column;
     }

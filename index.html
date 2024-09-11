@@ -16,6 +16,85 @@
 
     <main>
         <section class="selection-content">
+                <div class="w3-bar w3-black">
+                    <button class="w3-bar-item w3-button tablink w3-red" onclick="Build(event,'segitiga')">Segitiga</button>
+                    <button class="w3-bar-item w3-button tablink" onclick="Build(event,'jajargenjang')">Jajar Genjang</button>
+                </div>
+                  <div id="Build" class="w3-container w3-border city">
+                    <h2>Segitiga</h2>
+                        <aside>
+                            <header>
+                                <h1 class="segitiga-Header">Luas Segitiga</h1>
+                            </header>
+                
+                            <article class="Luas-Segitiga-Content">
+                                <div class="Luas-Segitiga-img"></div>
+                                <p>Rumus Luas Segitiga: </p>
+                            </article>
+                            <hr />
+                            
+                            <form>
+                            <header>
+                                <h1 class="luas-segitiga-form-header">Hitung Luas Segitiga</h1>
+                            </header>
+                
+                
+                            <div class="Input-wrapper">
+                                <label for="panjang-alas">Panjang Alas:</label>
+                                <input id="panjang-alas" type="number"/>
+                            </div>
+                            <div class="Input-wrapper">
+                                <label for="tinggi">Tinggi:</label>
+                                <input id="tinggi" type="number"/>
+                            </div>
+                            
+                            <p id="result">Hasil Perhitungan</p>
+                
+                            <button onclick="validateLuas()" type="button">Hitung</button>
+                            </form>
+                        </aside>
+            
+                        <aside>
+                            <header>
+                                <h1 class="segitiga-Header">Keliling Segitiga</h1>
+                            </header>
+                
+                            <article class="Luas-Segitiga-Content">
+                                <div class="keliling-segitiga-img"></div>
+                                <p>Rumus Keliling Segitiga: </p>
+                            </article>
+                            <hr />
+                            
+                            <form>
+                            <header>
+                                <h1 class="luas-segitiga-form-header">Hitung Keliling Segitiga</h1>
+                            </header>
+                
+                
+                            <div class="Input-wrapper">
+                                <label for="sisi-A">Sisi A:</label>
+                                <input id="sisi-A" type="number" />
+                            </div>
+                            <div class="Input-wrapper">
+                                <label for="Sisi-B">Sisi B:</label>
+                                <input id="Sisi-B" type="number"/>
+                            </div>
+                            <div class="Input-wrapper">
+                                <label for="sisi-C">Sisi C:</label>
+                                <input id="sisi-C" type="number"/>
+                            </div>
+            
+                            <p id="result">Hasil Perhitungan</p>
+                
+                            <button></button>
+                            </form>
+                        </aside>
+                  </div>
+            
+            <div id="Build" class="w3-container w3-border city" style="display:none">
+                <h2>Paris</h2>
+                <p>Paris is the capital of France.</p> 
+            </div>
             <button href="#" type="button" class="selection-btn skyblue-color">Segitiga</button> 
             <button href="#" type="button" class="selection-btn aquamarine-color">Jajar Genjang</button>
         </section>
@@ -23,7 +102,7 @@
         <section class="main-content">
              <aside>
                 <header>
-                    <h1 class="Luas-Segitiga-Header">Luas Segitiga</h1>
+                    <h1 class="segitiga-Header">Luas Segitiga</h1>
                 </header>
     
                 <article class="Luas-Segitiga-Content">
@@ -55,30 +134,34 @@
 
             <aside>
                 <header>
-                    <h1 class="Luas-Segitiga-Header">Luas Segitiga</h1>
+                    <h1 class="segitiga-Header">Keliling Segitiga</h1>
                 </header>
     
                 <article class="Luas-Segitiga-Content">
-                    <div class="Luas-Segitiga-img"></div>
-                    <p>Rumus Luas Segitiga: </p>
+                    <div class="keliling-segitiga-img"></div>
+                    <p>Rumus Keliling Segitiga: </p>
                 </article>
                 <hr />
                 
                 <form>
                 <header>
-                    <h1 class="luas-segitiga-form-header">Hitung Luas Segitiga</h1>
+                    <h1 class="luas-segitiga-form-header">Hitung Keliling Segitiga</h1>
                 </header>
     
     
                 <div class="Input-wrapper">
-                    <label for="panjang-alas">Panjang Alas:</label>
-                    <input id="panjang-alas-2" type="number" />
+                    <label for="sisi-A">Sisi A:</label>
+                    <input id="sisi-A" type="number" />
                 </div>
                 <div class="Input-wrapper">
-                    <label for="tinggi">Tinggi:</label>
-                    <input id="tinggi-2" type="number"/>
+                    <label for="Sisi-B">Sisi B:</label>
+                    <input id="Sisi-B" type="number"/>
                 </div>
-                
+                <div class="Input-wrapper">
+                    <label for="sisi-C">Sisi C:</label>
+                    <input id="sisi-C" type="number"/>
+                </div>
+
                 <p id="result">Hasil Perhitungan</p>
     
                 <button></button>
